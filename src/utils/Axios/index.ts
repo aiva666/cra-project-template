@@ -1,8 +1,8 @@
 
-import Axios from 'axios'
+import Axios from "axios"
 
-// import envInfo from '../envConst'
-import {message} from 'antd'
+// import envInfo from "../envConst"
+import {message} from "antd"
 
 Axios.defaults.timeout = 5000
 Axios.defaults.withCredentials = true
@@ -10,9 +10,7 @@ Axios.defaults.withCredentials = true
 
 
 // 添加请求拦截器
-Axios.interceptors.request.use(config => {
-    return config;
-}, error => {
+Axios.interceptors.request.use(config => config, error => {
     console.error("请求拦截捕获错误",error)
     message.error("系统异常")
 });
