@@ -2,7 +2,7 @@
  * @Author: Aiva
  * @Date: 2021-12-13 09:17:33
  * @LastEditors: Aiva
- * @LastEditTime: 2021-12-14 13:43:52
+ * @LastEditTime: 2021-12-14 13:49:55
  * @Description:
  * @FilePath: \cra-project-template\src\views\About\Count\index.tsx
  */
@@ -12,7 +12,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {increment,decrement} from "@/redux/index";
 import { Button, InputNumber } from "antd";
 
-const Count: FC = (props) => {
+const Count: FC = () => {
   const { value } = useSelector((state: TStore) => state);
   const dispatch = useDispatch();
   const [num, setNum] = useState(0);
