@@ -8,7 +8,7 @@
 - [Axios](http://www.axios-js.com/zh-cn/docs/)
 - [Less](https://less.bootcss.com/#%E6%A6%82%E8%A7%88)
 - [Sass](https://www.sass.hk/guide/)
-- [Redux](https://redux.js.org/introduction/getting-started)
+- [Redux-Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
 - [react-redux](https://react-redux.js.org/introduction/getting-started)
 
 
