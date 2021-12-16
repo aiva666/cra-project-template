@@ -81,23 +81,23 @@
         // 确保所有导入都出现在其他语句之前
         "import/first": "error",
         // 在导入语句后强制换行
-        "import/newline-after-import":"error",
+        "import/newline-after-import": "error",
         // 当组件属性值为true时可以省略
-        "react/boolean-prop-naming":"warn",
+        "react/boolean-prop-naming": "warn",
         // 多个函数式组件可以放到一个文件中
-        "react/no-multi-comp":"warn",
+        "react/no-multi-comp": "warn",
         // React 组件使用 PascalCase，组件实例使用 CamelCase
-        "react/jsx-pascal-case":"error",
+        "react/jsx-pascal-case": "error",
         // 验证关闭括号位置
-        "react/jsx-closing-bracket-location":"error",
+        "react/jsx-closing-bracket-location": "error",
         // 自闭合的标签前要加一个空格
-        "react/jsx-tag-spacing":"error",
+        "react/jsx-tag-spacing": "error",
         // 避免使用数组的索引作为 key 属性值, 建议使用稳定的ID
-        "react/no-array-index-key":"error",
+        "react/no-array-index-key": "error",
         // 当 JSX 标签超过一行时使用圆括号包裹
-        "react/jsx-wrap-multilines":"error",
+        "react/jsx-wrap-multilines": "error",
         // 没有子元素的标签请自闭合
-        "react/self-closing-comp":"error"
+        "react/self-closing-comp": "error"
     },
     // 禁用一组文件的配置文件中的规则
     "overrides": [
@@ -111,10 +111,6 @@
         //     }
         // }
     ],
-    "extends": [
-        "eslint:recommended",
-        "react-app",
-        "react-app/jest"
-    ],
-    "plugins": ["import","react"]
+    "extends": ["eslint:recommended", "react-app", "react-app/jest"],
+    "plugins": ["import", "react"]
 }

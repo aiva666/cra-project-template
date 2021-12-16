@@ -10,11 +10,11 @@ import "./App.scss";
 const App: FC = () => useRoutes(routerConfig);
 
 const AppWrapper: FC = () => (
-  <Provider store={Store}>
-    <Router>
-      <App />
-    </Router>
-  </Provider>
+    <Provider store={Store}>
+        <Router>
+            <App />
+        </Router>
+    </Provider>
 );
 
 export default AppWrapper;
