@@ -5,19 +5,19 @@
  * @FilePath: \cra-project-template\src\routes\index.jsx
  */
 
-import Home from "@/views/Home";
-import About from "@/views/About";
+import Home from "@/views/Home"
+import About from "@/views/About"
 // import { RouteObject } from "react-router"
 
 const routes = [
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/about",
-        element: <About />,
-    },
-];
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+]
 
-export default routes;
+export default routes

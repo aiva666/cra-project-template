@@ -4,18 +4,18 @@
  * @LastEditTime: 2021-12-15 13:44:12
  * @FilePath: \cra-project-template\src\views\About\index.tsx
  */
-import { FC } from "react";
-import { Link } from "react-router-dom";
-import Count from "./Count";
+import { FC } from "react"
+import { Link } from "react-router-dom"
+import Count from "./Count"
 
 const About: FC = () => (
+  <div className="container">
+    <h1>About</h1>
+    <Link to="/">to Home page</Link>
     <div className="container">
-        <h1>About</h1>
-        <Link to="/">to Home page</Link>
-        <div className="container">
-            <Count />
-        </div>
+      <Count />
     </div>
-);
+  </div>
+)
 
-export default About;
+export default About

@@ -1,6 +1,6 @@
 # React 项目脚手架
 
-> 基于 [Create-React-App](https://cra.docschina.org/) 创建，使用TypeScript。并集成以下模块，用于减少项目搭建的繁琐流程。
+> 基于 [Create-React-App](https://cra.docschina.org/) 创建，使用 TypeScript。并集成以下模块，用于减少项目搭建的繁琐流程。
 
 - [React-Router-Dom 6](https://reactrouter.com/docs/en/v6)
 - [Antd](https://ant-design.gitee.io/components/overview-cn/)
@@ -11,9 +11,8 @@
 - [Redux-Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
 - [react-redux](https://react-redux.js.org/introduction/getting-started)
 
-
-
 ### 安装依赖
+
 ```bash
     npm install
     # 或者
@@ -21,6 +20,7 @@
 ```
 
 ### 运行
+
 ```bash
     npm start
     # 或者
@@ -28,6 +28,7 @@
 ```
 
 ### 打包
+
 ```bash
     npm build
     # 或者

@@ -8,7 +8,7 @@
  */
 
 export enum CountConstants {
-    INCREMENT = "increment",
-    DECREMENT = "decrement",
-    ASYNCINCREMENT = "asyncDecrement",
+  INCREMENT = "increment",
+  DECREMENT = "decrement",
+  ASYNCINCREMENT = "asyncDecrement",
 }

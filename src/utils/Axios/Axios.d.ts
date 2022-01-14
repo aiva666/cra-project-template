@@ -5,10 +5,10 @@
  * @FilePath: \cra-project-template\src\utils\Axios\Axios.d.ts
  */
 
-import * as axios from "axios";
+import * as axios from "axios"
 
 declare module "axios" {
-    interface AxiosInstance {
-        (config: AxiosRequestConfig): Promise<any>;
-    }
+  interface AxiosInstance {
+    (config: AxiosRequestConfig): Promise<any>
+  }
 }
