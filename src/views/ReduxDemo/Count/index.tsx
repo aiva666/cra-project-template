@@ -1,12 +1,3 @@
-/*
- * @Author: Aiva
- * @Date: 2021-12-13 09:17:33
- * @LastEditors: Aiva
- * @LastEditTime: 2021-12-16 14:33:04
- * @Description:
- * @FilePath: \cra-project-template\src\views\About\Count\index.tsx
- */
-
 import React, { FC, useState } from "react"
 import { useSelector, useDispatch } from "react-redux"
 import { increment, decrement, incrementAsync } from "@/redux/index"

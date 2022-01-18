@@ -1,11 +1,3 @@
-/*
- * @Author: Aiva
- * @Date: 2021-12-13 15:54:32
- * @LastEditors: Aiva
- * @LastEditTime: 2021-12-16 15:05:54
- * @Description:
- * @FilePath: \cra-project-template\src\redux\index.ts
- */
 import {
   configureStore,
   createAction,

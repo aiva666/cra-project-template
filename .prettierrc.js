@@ -1,11 +1,4 @@
-/*
- * @Author: Aiva
- * @Date: 2022-01-14 16:49:12
- * @LastEditors: Aiva
- * @LastEditTime: 2022-01-14 16:49:15
- * @Description:
- * @FilePath: \cra-project-template\.prettierrc.js
- */
+/** prettier 配置文件 */
 module.exports = {
   printWidth: 100, // 指定代码长度，超出换行
   tabWidth: 2, // tab 键的宽度

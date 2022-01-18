@@ -1,8 +1,5 @@
-/*
- * @Date: 2021-11-18 09:20:51
- * @LastEditors: Aiva
- * @LastEditTime: 2021-12-16 15:13:50
- * @FilePath: \cra-project-template\craco.config.ts
+/**
+ * craco配置文件
  */
 const CracoLessPlugin = require("craco-less")
 const themeConfig = require("./theme.config")

@@ -1,8 +1,5 @@
-/*
- * @Date: 2021-11-18 09:25:25
- * @LastEditors: Aiva
- * @LastEditTime: 2021-12-15 13:45:28
- * @FilePath: \cra-project-template\theme.config.js
+/**
+ * 项目主题配置
  */
 module.exports = {
   "@primary-color": "#1890ff", // 全局主色
