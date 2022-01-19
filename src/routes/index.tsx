@@ -77,6 +77,7 @@ const routes: TRoutes[] = [
   {
     path: "*",
     element: <NotFount />,
+    hideInMenu: true,
   },
 ]
 
